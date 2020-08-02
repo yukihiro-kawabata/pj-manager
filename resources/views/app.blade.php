@@ -12,14 +12,9 @@
     <?php // styles ?>
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
 </head>
-<body>
-    <div id="example"></div>
-
+<body class="bg-dark">
+    <div id="app"></div>
     <?php // scripts ?>
     <script src="{{ mix('/js/app.js') }}" defer></script>
-
-    <script>
-        console.log(typescript('Jonh'));
-    </script>
 </body>
 </html>
